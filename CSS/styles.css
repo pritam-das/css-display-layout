@@ -1,0 +1,92 @@
+*, *::before, *::after /*when applying the box-sizing rule, apply it like this*/
+{
+  box-sizing: border-box;
+/* applies the box sizing rule to every element of the doc*/
+}
+
+header
+{
+    font-size: 26px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.liststyle
+{
+  color: white;
+  background-color: lightgrey;
+  display: inline;
+  list-style: none;
+  font-size: 25px;
+  padding: 15px;
+}
+
+li.liststyle:first-child
+{
+  margin-left: 400px;
+  margin-right: 5px;
+}
+
+li.liststyle:nth-child(even)
+{
+  margin-right: 5px;
+}
+
+.sixphotos
+{
+  color: black;
+  background-color: limegreen;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+/*#imagemargin
+{
+  margin-left: 30px;
+  margin-right: 30px;
+}*/
+
+.images
+{
+
+  display: inline-table;
+  list-style: none;
+  margin-bottom: 5px;
+  /*padding: 20px;*/
+
+
+}
+
+li.images:first-child
+{
+  margin-left: -10px;
+
+  text-align: left;
+}
+
+li.images:nth-child(3n)
+{
+  margin-right: 10px;
+}
+
+footer
+{
+  font-size: 26px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
